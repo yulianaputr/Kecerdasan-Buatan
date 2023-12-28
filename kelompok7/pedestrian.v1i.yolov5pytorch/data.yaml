@@ -1,0 +1,13 @@
+train: ../train/images
+val: ../valid/images
+test: ../test/images
+
+nc: 1
+names: ['pejalan-kaki']
+
+roboflow:
+  workspace: kioara21
+  project: pedestrian-jyi4h
+  version: 1
+  license: Private
+  url: https://app.roboflow.com/kioara21/pedestrian-jyi4h/1
